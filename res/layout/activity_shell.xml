@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    <Button 
+        android:id="@+id/allProcess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/allProcess"/>
+    <Button 
+        android:id="@+id/qihoo360tencentQQ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qihoo360tencentQQ"/>
+    <EditText 
+        android:id="@+id/psinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:hint="@string/psinfohint"/>
+    <Button 
+        android:id="@+id/inputKW"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inputKW"/>
+
+</LinearLayout>

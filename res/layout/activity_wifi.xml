@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <Button
+        android:id="@+id/startWiFi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startWiFi">
+    </Button>
+    <Button
+        android:id="@+id/stopWiFi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stopWiFi">
+    </Button>
+    <Button
+        android:id="@+id/checkWiFi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkWiFi">
+    </Button>
+
+</LinearLayout>

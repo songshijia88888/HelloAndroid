@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="handlerendbutton">handlerendbutton</string>
+    <string name="handlerstartbutton">handlerstartbutton</string>
+    <string name="app_name">HelloAndroid</string>
+    <string name="hello_world">Hello Android, Let us be great!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sally">German</string>
+    <string name="ANDY">china</string>
+    <string name="title_activity_other">OtherActivity</string>
+    <string name="title_activity_fact_number">FactNumber</string>
+    <string name="number1">输入乘数1</string>
+    <string name="number2">输入乘数2</string>
+    <string name="factbutton">计算乘积</string>
+    <string name="calculat_4">乘以</string>
+    <string name="title_activity_fact_result">FactResult</string>
+    <string name="title_activity_radio_check">RadioCheckActivity</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="ch1">中国成都</string>
+    <string name="ch2">德国曼海姆</string>
+    <string name="ch3">美国加州</string>
+    <string name="radiocheckbox">RadioButton/CheckBox</string>
+    <string name="title_activity_progress_bar">ProgressBarActivity</string>
+    <string name="progressbar">ProgressBar</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="start">start</string>
+    <string name="listview">ListView</string>
+    <string name="title_activity_handler">HandlerActivity</string>
+    <string name="handler">handler</string>
+    <string name="title_activity_handler_progress_bar">HandlerProgressBarActivity</string>
+    <string name="handlerprogressbarbutton">handlerprogressbarbutton</string>
+    <string name="handlerprogressbar">handlerprogressbar</string>
+    <string name="title_activity_sqlite">SQLiteActivity</string>
+    <string name="createdb">createdb</string>
+    <string name="updatedb">updatedb</string>
+    <string name="insert">insert</string>
+    <string name="update">update</string>
+    <string name="query">query</string>
+    <string name="toSQLite">SQLite</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="downloadtext">downloadtext</string>
+    <string name="downloadmp3">downloadmp3</string>
+    <string name="toDownload">toDownload</string>
+    <string name="title_activity_xml">XMLActivity</string>
+    <string name="processXMLwithSAX">processXMLwithSAX</string>
+    <string name="toXML">toXML</string>
+    <string name="title_activity_broadcast">BroadcastActivity</string>
+    <string name="sendBroadcast">sendBroadcast</string>
+    <string name="toBroadcast">toBroadcast</string>
+    <string name="title_activity_broadcast_activity3">BroadcastActivity3</string>
+    <string name="registBroadcastRecevier3">registBroadcastRecevier3</string>
+    <string name="unregistBroadcastRecevier3">unregistBroadcastRecevier3</string>
+    <string name="toBroadcast3">toBroadcast3</string>
+    <string name="title_activity_wi_fi">WiFiActivity</string>
+    <string name="startWiFi">startWiFi</string>
+    <string name="stopWiFi">stopWiFi</string>
+    <string name="checkWiFi">checkWiFi</string>
+    <string name="toWiFi">toWiFi</string>
+    <string name="toSocket">toSocket</string>
+    <string name="title_activity_socket">SocketActivity</string>
+    <string name="startTCPServer">startTCPServer</string>
+    <string name="startUDPServer">startUDPServer</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="toService">toService</string>
+    <string name="startService">startService</string>
+    <string name="stopService">stopService</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="spinner">spinner</string>
+    <string name="toSpinner">toSpinner</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="setspinner">setspinner</string>
+    <string name="spinnertextview">spinnertextview</string>
+    <string name="title_activity_rating_bar">RatingBarActivity</string>
+    <string name="toRatingBar">toRatingBar</string>
+    <string name="title_activity_seek_bar">SeekBarActivity</string>
+    <string name="toSeekBar">toSeekBar</string>
+    <string name="title_activity_date_picker_dialog">DatePickerDialogActivity</string>
+    <string name="toDatePicker">toDatePicker</string>
+    <string name="datepickerdialog">datepickerdialog</string>
+    <string name="title_activity_auto_complete">AutoCompleteActivity</string>
+    <string name="toAutoComplete">toAutoComplete</string>
+    <string name="setAutonContent">setAutonContent</string>
+    <string name="title_activity_expandable_list">ExpandableListActivity</string>
+    <string name="group">group</string>
+    <string name="groupitem">groupitem</string>
+    <string name="toExpandableList">toExpandableList</string>
+    <string name="title_activity_shell">ShellActivity</string>
+	<string name="toShell">toShell</string>
+	<string name="allProcess">allProcess</string>
+	<string name="qihoo360tencentQQ">qihoo360tencentQQ</string>
+	<string name="inputKW">inputKW</string>
+	<string name="psinfohint">Please fill in the pid of the process to be killed</string>
+</resources>

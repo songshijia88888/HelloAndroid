@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarStyle="outsideOverlay"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/toFact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/factbutton" />
+
+        <Button
+            android:id="@+id/radiocheckbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/radiocheckbox" />
+
+        <Button
+            android:id="@+id/progressbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/progressbar" />
+
+        <Button
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/listview" />
+
+        <Button
+            android:id="@+id/handler"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/handler" />
+
+        <Button
+            android:id="@+id/handlerprogressbar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/handlerprogressbar" />
+
+        <Button
+            android:id="@+id/toSQLite"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toSQLite" />
+
+        <Button
+            android:id="@+id/toDownload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toDownload" />
+
+        <Button
+            android:id="@+id/toXML"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toXML" />
+
+        <Button
+            android:id="@+id/toBroadcast"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toBroadcast" />
+        <Button
+            android:id="@+id/toBroadcast3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toBroadcast3" />
+        <Button
+            android:id="@+id/toWiFi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toWiFi" />
+        <Button
+            android:id="@+id/toSocket"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toSocket" />
+        <Button
+            android:id="@+id/toService"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toService" />
+        <Button
+            android:id="@+id/toSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toSpinner" />
+        <Button
+            android:id="@+id/toRatingBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toRatingBar" />
+        <Button
+            android:id="@+id/toSeekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toSeekBar" />
+        <Button
+            android:id="@+id/toDatePicker"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toDatePicker" />
+        <Button
+            android:id="@+id/toAutoComplete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toAutoComplete" />
+        
+        <Button
+            android:id="@+id/toExpandableList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toExpandableList" />
+        
+        <Button
+            android:id="@+id/toShell"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/toShell" />
+    </LinearLayout>
+</ScrollView>

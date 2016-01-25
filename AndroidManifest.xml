@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andy.helloandroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OtherActivity"
+            android:label="@string/title_activity_other" >
+        </activity>
+        <activity
+            android:name=".FactNumber"
+            android:label="@string/title_activity_fact_number" >
+        </activity>
+        <activity
+            android:name=".FactResult"
+            android:label="@string/title_activity_fact_result" >
+        </activity>
+        <activity
+            android:name=".RadioCheckActivity"
+            android:label="@string/title_activity_radio_check" >
+        </activity>
+        <activity
+            android:name=".ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar" >
+        </activity>
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name=".HandlerActivity"
+            android:label="@string/title_activity_handler" >
+        </activity>
+        <activity
+            android:name=".HandlerProgressBarActivity"
+            android:label="@string/title_activity_handler_progress_bar" >
+        </activity>
+        <activity
+            android:name=".SQLiteActivity"
+            android:label="@string/title_activity_sqlite" >
+        </activity>
+        <activity
+            android:name=".DownloadActivity"
+            android:label="@string/title_activity_download" >
+        </activity>
+        <activity
+            android:name=".XMLActivity"
+            android:label="@string/title_activity_xml" >
+        </activity>
+        <activity
+            android:name=".BroadcastActivity2"
+            android:label="@string/title_activity_broadcast" >
+        </activity>
+
+        <receiver android:name=".BroadcastReceiver2" >
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".BroadcastActivity3"
+            android:label="@string/title_activity_broadcast_activity3" >
+        </activity>
+        <activity
+            android:name=".WiFiActivity"
+            android:label="@string/title_activity_wi_fi" >
+        </activity>
+        <activity
+            android:name=".SocketActivity"
+            android:label="@string/title_activity_socket" >
+        </activity>
+        <activity
+            android:name=".ServiceActivity"
+            android:label="@string/title_activity_service" >
+        </activity>
+
+        <service android:name=".Service2" >
+        </service>
+
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name=".RatingBarActivity"
+            android:label="@string/title_activity_rating_bar" >
+        </activity>
+        <activity
+            android:name=".SeekBarActivity"
+            android:label="@string/title_activity_seek_bar" >
+        </activity>
+        <activity
+            android:name=".DatePickerDialogActivity"
+            android:label="@string/title_activity_date_picker_dialog" >
+        </activity>
+        <activity
+            android:name=".AutoCompleteActivity"
+            android:label="@string/title_activity_auto_complete" >
+        </activity>
+        <activity
+            android:name=".ExpandableListActivity"
+            android:label="@string/title_activity_expandable_list" >
+        </activity>
+        <activity
+            android:name=".ShellActivity"
+            android:label="@string/title_activity_shell" >
+        </activity>
+    </application>
+
+</manifest>
